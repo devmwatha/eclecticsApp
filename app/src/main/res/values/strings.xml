@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">M-Banking App</string>
+    <string name="deposit" translatable="false">Deposit</string>
+    <string name="balance_enquiry" translatable="false">Balance Enquiry</string>
+    <string name="stop_cheque" translatable="false">Stop Cheque</string>
+    <string name="change_pin" translatable="false">Change Pin</string>
+    <string name="financial_tips" translatable="false">Financial Tips</string>
+    <string name="m_bank" translatable="false">Mobile Banking App</string>
+    <string name="your_account_number_here" translatable="false">Your Account number here:</string>
+    <string name="your_pin_here" translatable="false">Your PIN here:</string>
+    <string name="log_in_to_your_m_bank_account" translatable="false">Log in to your M-Bank Account</string>
+    <string name="log_in" translatable="false">Log in</string>
+    <string name="do_not_have_an_account_yet" translatable="false">Do not have an account yet?</string>
+    <string name="register_here" translatable="false">Register here</string>
+    <string name="register_with_us" translatable="false">Register with us</string>
+    <string name="your_last_name" translatable="false">Your Last name:</string>
+    <string name="your_first_name" translatable="false">Your First name:</string>
+    <string name="your_account_number" translatable="false">Your Account number:</string>
+    <string name="enter_your_pin" translatable="false">Enter your PIN</string>
+    <string name="register" translatable="false">register</string>
+    <string name="have_an_account_log_in_here" translatable="false">Have an account log in here</string>
+    <string name="deposit_cash" translatable="false">Deposit cash</string>
+    <string name="enter_the_amount_to_deposit" translatable="false">Enter the amount to deposit</string>
+    <string name="send_the_amount_to_my_account" translatable="false">Send the amount to my account</string>
+    <string name="enter_old_pin" translatable="false">Enter old PIN</string>
+    <string name="change_mpin" translatable="false">Change PIN</string>
+    <string name="cheque_numer" translatable="false">Enter the cheque number to stop</string>
+    <string name="stop_mcheque" translatable="false">Stop Cheque</string>
+    <string name="some_financial_tips" translatable="false">Some financial tips</string>
+    <string name="close" translatable="false">Close drawer</string>
+    <string name="open" translatable="false">Open drawer</string>
+    <string name="place_a_cheque">Place a cheque</string>
+    <string name="place_a_cheque_now">Place a Cheque now</string>
+    <string name="place_cheque">Place cheque</string>
+    <string name="bal">"Your current balance is "</string>
+    <string name="helo">"Hello: "</string>
+    <string name="confirm_new_pin">Confirm new PIN</string>
+    <string name="enter_new_pin">Enter new PIN</string>
+</resources>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_place_cheque"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.smartboma.development.m_bankingapp.UI.PlaceCheque">
+<android.support.v7.widget.Toolbar
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/toolbar"
+    android:layout_alignParentTop="true"
+    android:background="@color/colorPrimaryDark"/>
+    <android.support.v7.widget.CardView
+        android:layout_below="@id/toolbar"
+        android:id="@+id/card"
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:textSize="20sp"
+                android:textColor="@color/cardview_dark_background"
+                android:text="@string/place_a_cheque_now"
+                android:layout_marginBottom="40dp"/>
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/acc_ch_number"
+    android:textSize="20sp"
+    />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/ch_number"
+                android:textSize="20sp"
+                />
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+<android.support.v7.widget.CardView
+    android:layout_below="@id/card"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    app:cardElevation="5dp">
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/place_cheque"
+        android:id="@+id/place"
+        android:background="@color/colorAccent"/>
+
+</android.support.v7.widget.CardView>
+</RelativeLayout>

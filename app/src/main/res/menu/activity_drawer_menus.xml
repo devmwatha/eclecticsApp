@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="@string/deposit"
+        android:id="@+id/deposit"/>
+
+    <item android:title="@string/balance_enquiry"
+        android:id="@+id/b_enquiry"/>
+
+    <item android:title="@string/stop_cheque"
+        android:id="@+id/stop_cheque"/>
+
+    <item android:title="@string/change_pin"
+        android:id="@+id/change_pin"/>
+
+    <item android:title="@string/financial_tips"
+        android:id="@+id/f_tips"/>
+    <item android:title="@string/place_a_cheque"
+        android:id="@+id/cheque_placement"/>
+</menu>
